@@ -3,5 +3,4 @@ kind: ConfigMap
 metadata:
   name: xgboost-env-config
 data:
-  # Put your non-sensitive variables here
-  MLFLOW_TRACKING_URI: "http://10.15.176.253:1234"
+  MLFLOW_TRACKING_URI: "http://<your-private-ip>:1234"
