@@ -20,7 +20,6 @@ The primary objective of this repository is to showcase a "Day 2 Operations" min
 
 *   **Core Engine:** C++17 with `pybind11` for Python bindings.
 *   **Orchestration:** [MicroK8s](https://microk8s.io/) (Canonical’s lightweight, zero-ops Kubernetes distribution).
-*   **Automation:** [Juju](https://juju.is/) (for deploying the Charmed MLflow stack).
 *   **Tracking:** MLflow (hosted in-cluster).
 *   **Artifact Store:** Azure Blob Storage (Microsoft Cloud).
 *   **Containers:** Docker (Multi-stage), Kubernetes Jobs, and YAML Manifests.
